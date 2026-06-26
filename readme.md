@@ -69,17 +69,6 @@ Target Variable:
 - Recall
 - F1 Score
 
----
-
-## 📂 Project Structure
-iiot-machine-failure-prediction/
-│
-├── train_model.py
-├── predict_machine.py
-├── simulated_iiot_dataset.csv
-├── model.pkl
-├── README.md
-
 
 ---
 
@@ -89,16 +78,22 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/AbdulSami-033/iiot-machine-failure-prediction.git
+```
 
 Install dependencies:
+```bash
 pip install pandas matplotlib scikit-learn joblib
-
+```
 
 Run model training:
+```bash
 python train_model.py
+```
 
 Run prediction:
+```bash
 python predict_machine.py
+```
 
 
 🎯Learning Outcomes
@@ -120,6 +115,8 @@ Time-series forecasting
 
 👨‍💻 Author
 GitHub:
+```bash
 https://github.com/AbdulSami-033
+```
 
 ⭐ If you found this project useful, consider giving it a star.
